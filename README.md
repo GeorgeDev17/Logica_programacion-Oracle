@@ -34,7 +34,7 @@ Lo aprendido:
 * Buenas prácticas de programación: Nomenclatura de funciones.
 * Funciones con parámetros.
 
+5. Practique resolviendo problemas del día
 
--Lógica de programación: Conceptos primordiales
-
-Lo aprendido:
+* Creamos un programa para calcular IMC.
+* Profundizamos en el retorno de funciones.
