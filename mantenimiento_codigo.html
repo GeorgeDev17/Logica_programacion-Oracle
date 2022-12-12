@@ -1,0 +1,43 @@
+<meta charset="UTF-8" />
+
+<h1>Mejorando el mantenimiento del código</h1>
+<p>1. Creando una variable para los saltos de linea<br /></p>
+<p>2. Creando una función para los saltos de linea<br /></p>
+
+<script>
+  
+  //Creando una función
+  function saltarLinea (){
+    document.write ("<br>");
+  }
+  
+  //Declarando variables
+  var anho = 2022;
+  var saltoLinea = "<br><br>";
+
+  //Evaluando formulas matemáticas usando document.write
+  document.write("Edward tiene: " + (anho - 2000) + " años");
+  document.write(saltoLinea); //Llamando la variable definida en la linea 16
+
+  //Asignando un nuevo valor a la variable anho y llamando a función saltarLinea
+  var anho = 2030;
+  saltarLinea();
+
+  //Funciones con parámetros
+  function imprimir(frase){
+    document.write(frase);
+    saltarLinea();
+  }
+  
+  saltarLinea();
+  imprimir("Hola Mundo"); //Imprimiendo texto usando la función definida en la linea 28
+  saltarLinea();
+  
+  //Este código evalúa las edades de Arthur y Erik usando la función imprimir
+  imprimir("Arthur tiene: " + (anho - 1995) + " años");
+
+  saltarLinea(); //función saltarLinea declarada en la linea 10
+
+  imprimir("Erik tiene: " + (anho - 2005) + " años");
+
+</script>

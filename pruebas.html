@@ -41,4 +41,23 @@
     document.write(tablaDeMultiplicar + " veces 9 es " + tablaDeMultiplicar* 9 + "<br>");
     document.write(tablaDeMultiplicar + " veces 10 es " + tablaDeMultiplicar* 10 + "<br>");
 
+    /*Juana tiene la costumbre de colocar siempre tres asteriscos antes y después de los mensajes de advertencia.
+    En la función mostrarAlerta estamos recibiendo como parámetro los mensajes y 
+    dentro de la función estamos pasando este parámetro para pasar el alert.*/
+    function mostrarAlerta(mensaje) {
+        alert("***" + mensaje + "***");
+    }
+    
+    //Declaración de variables
+    var edad1 = 10;
+    var edad2 = 20;
+    var edad3 = 30;
+    var totalEdades = edad1 + edad2 + edad3; //Variable que evalúa la suma de edades
+    //Variable que almacena el promedio luego de evaluarse la variable que almacena la suma
+    var promedioEdades = totalEdades/3; 
+    
+    //Llama la función mostrarAlerta y concatena
+    mostrarAlerta("Total de edades es " + totalEdades);
+    mostrarAlerta("El promedio de las edades es " +  promedioEdades);
+
 </script>
