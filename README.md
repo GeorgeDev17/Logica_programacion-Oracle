@@ -4,6 +4,7 @@ Programa formación Oracle Alura Latam
 Cursos:
 
 - Lógica de programación:Primeros pasos
+
 Lo aprendido:
 
 1. Comience a programar hoy:
@@ -35,4 +36,5 @@ Lo aprendido:
 
 
 -Lógica de programación: Conceptos primordiales
+
 Lo aprendido:
