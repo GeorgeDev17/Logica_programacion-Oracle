@@ -26,7 +26,7 @@
     document.write("<br>");
 
     document.write("¿Qué podemos hacer para calcular la tabla de multiplicar de otros números sin necesidad de realizar tantas alteraciones? <br>");
-    document.write("Creemos la variable tablaDeMultiplicar que recibirá el número 8 <br>");
+    document.write("Creamos la variable tablaDeMultiplicar que recibirá el número 8 <br>");
     document.write("<br>");
 
     var tablaDeMultiplicar = 8;
@@ -54,10 +54,31 @@
     var edad3 = 30;
     var totalEdades = edad1 + edad2 + edad3; //Variable que evalúa la suma de edades
     //Variable que almacena el promedio luego de evaluarse la variable que almacena la suma
-    var promedioEdades = totalEdades/3; 
+    var promedioEdades = totalEdades/3;
+    document.write("<br>"); 
     
     //Llama la función mostrarAlerta y concatena
     mostrarAlerta("Total de edades es " + totalEdades);
     mostrarAlerta("El promedio de las edades es " +  promedioEdades);
+
+    /*Estamos obteniendo el retorno de la función prompt y estamos asignando las respectivas 
+    variables numero1 y numero2. */
+
+    function saltarLinea() {
+
+        document.write("<br>");
+    }
+
+    function mostrar(frase) {
+        document.write(frase);
+        saltarLinea();
+    }
+
+    //lee dos números del teclado
+    var numero1 = prompt("Digite el primer número");
+    var numero2 = prompt("Digite el segundo número");
+
+    //Evalúa y muestra la multiplicación de uno por el otro para el usuario
+    mostrar("El valor de " + numero1 + " veces " + numero2 + " es: " + (numero1 * numero2));
 
 </script>
