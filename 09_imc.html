@@ -1,0 +1,41 @@
+<meta charset="UTF-8" />
+<h1>Programa calculo IMC</h1>
+<h3> (indice de masa corporal) </h3>
+
+<script>
+    
+/*El índice de masa corporal (IMC) se calcula dividiendo el peso 
+de una persona por su altura al cuadrado: IMC = peso / (altura * altura)*/
+
+//Función para agregar los saltos de linea
+function saltarLinea(){
+    document.write("<br>");
+    document.write("<br>");
+}
+
+//Función con parámetros para imprimir texto
+function imprimir(frase){
+    document.write(frase);
+    saltarLinea();
+}
+//Función para calcular IMC
+function calcularImc(peso,altura){
+    imc = peso / (altura * altura);
+    return(imc);
+}
+
+//Declarando variables
+pesoChristian = 71 
+alturaChristian = 1.72
+//Evalúa y almacena el resultado en la variable imcChristian
+imcChristian = pesoChristian / (alturaChristian * alturaChristian);
+//Imprime en navegador y concatena el resultado obtenido
+imprimir("El IMC de Christian es: " + imcChristian);
+
+//Calculo de IMC de Felipe llamando la función calcularImc
+pesoFelipe = 75
+alturaFelipe = 1.73
+imcFelipe = calcularImc(pesoFelipe ,alturaFelipe);
+imprimir("El IMC de Felipe es: " + imcFelipe);
+
+</script>
