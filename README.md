@@ -15,12 +15,11 @@ Lo aprendido:
 
 2. Comuniquese con el usuario:
 
-
 * Convenios y buenas prácticas de programación.
 * A concatenar caracteres (strings).
 * Operaciones conjuntas entre textos y números.
 
-4. Dejar el programa dinámico usando variables:
+3. Dejar el programa dinámico usando variables:
 
 * Usar variables para reducir código.
 * Secuencia de la ejecución de nuestro código.
@@ -28,6 +27,11 @@ Lo aprendido:
 * Buenas prácticas de programación: Nomenclatura de variables.
 
 4. Cree sus propias funcionalidades:
+
+* A crear funciones.
+* Usar la consola de desarrollador para identificar errores y acompañar las variables.
+* Buenas prácticas de programación: Nomenclatura de funciones.
+* Funciones con parámetros.
 
 
 -Lógica de programación: Conceptos primordiales
