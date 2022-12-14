@@ -34,7 +34,7 @@ Lo aprendido:
 * Buenas prácticas de programación: Nomenclatura de funciones.
 * Funciones con parámetros.
 
-5. Practique resolviendo problemas del día
+5. Practique resolviendo problemas del día a día:
 
 * Creamos un programa para calcular IMC.
 * Profundizamos en el retorno de funciones.
