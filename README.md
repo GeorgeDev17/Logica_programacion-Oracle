@@ -1,9 +1,6 @@
+# Programa formación Oracle Alura Latam
 
-Programa formación Oracle Alura Latam
-
-Cursos:
-
-- Lógica de programación:Primeros pasos
+# Lógica de programación:Primeros pasos
 
 Lo aprendido:
 
